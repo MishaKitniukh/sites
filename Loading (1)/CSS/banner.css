@@ -1,0 +1,129 @@
+/* Банер №1 */
+
+.banner {
+    position: absolute;
+    bottom: 3.125rem;
+    left: 3.125rem;
+    width: max-content;
+    padding: 1.25rem 1rem;
+    border-radius: 0.25rem;
+    background-color: #0b0c14;
+    color: white;
+    transform: translateY(2rem);
+    opacity: 0;
+    pointer-events: none;
+    animation: fade-in 4s;
+}
+
+.progress {
+    position: absolute;
+    inset: auto 0.625rem 0.375rem;
+    height: 0.25rem;
+    background-color: white;
+    transform: scaleX(0);
+    transform-origin: left;
+    border-radius: 0.5rem;
+    animation: load 3s 0.25s linear forwards;
+}
+
+@keyframes fade-in {
+    5%, 90% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes load {
+    100% {
+        transform: scaleX(1);
+    }
+}
+
+
+
+
+/* Банер №2 */
+
+.banner2 {
+    display: none;
+    position: absolute;
+    bottom: 3.125rem;
+    left: 3.125rem;
+    width: max-content;
+    padding: 1.25rem 1rem;
+    border-radius: 0.25rem;
+    background-color: #0b0c14;
+    color: white;
+    transform: translateY(2rem);
+    opacity: 0;
+    pointer-events: none;
+    animation: fade-in2 4s;
+}
+
+.progress2 {
+    position: absolute;
+    inset: auto 0.625rem 0.375rem;
+    height: 0.25rem;
+    background-color: white;
+    transform: scaleX(0);
+    transform-origin: left;
+    border-radius: 0.5rem;
+    animation: load2 3s 0.25s linear forwards;
+}
+
+@keyframes fade-in2 {
+    5%, 90% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes load2 {
+    100% {
+        transform: scaleX(1);
+    }
+}
+
+
+
+
+/**/
+.banner3 {
+    display: none;
+    position: absolute;
+    bottom: 3.125rem;
+    left: 3.125rem;
+    width: max-content;
+    padding: 1.25rem 1rem;
+    border-radius: 0.25rem;
+    background-color: #0b0c14;
+    color: white;
+    transform: translateY(2rem);
+    opacity: 0;
+    pointer-events: none;
+    animation: fade-in3 4s;
+}
+
+.progress3 {
+    position: absolute;
+    inset: auto 0.625rem 0.375rem;
+    height: 0.25rem;
+    background-color: white;
+    transform: scaleX(0);
+    transform-origin: left;
+    border-radius: 0.5rem;
+    animation: load3 3s 0.25s linear forwards;
+}
+
+@keyframes fade-in3 {
+    5%, 90% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes load3 {
+    100% {
+        transform: scaleX(1);
+    }
+}
